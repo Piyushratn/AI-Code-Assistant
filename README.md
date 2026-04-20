@@ -1,36 +1,163 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🚀 AI Code Assistant
 
-First, run the development server:
+### 🧠 Explain • Debug • Optimize Code using AI + RAG
+
+[![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js)]
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)]
+[![OpenRouter](https://img.shields.io/badge/OpenRouter-AI-blue?style=for-the-badge)]
+[![RAG](https://img.shields.io/badge/RAG-Contextual%20AI-black?style=for-the-badge)]
+
+</div>
+
+---
+
+## 📌 Overview
+
+AI Code Assistant is a full-stack AI application that helps developers:
+
+- 🔍 Understand code  
+- 🐛 Detect bugs  
+- ⚡ Optimize performance  
+
+It uses **Retrieval-Augmented Generation (RAG)** to analyze code context intelligently instead of relying on simple prompts.
+
+---
+
+## ✨ Features
+
+- 🧠 **Explain Code** — Step-by-step breakdown  
+- 🐛 **Bug Detection** — Find logical & syntax issues  
+- ⚡ **Optimization Suggestions** — Improve performance & readability  
+- 🔗 **GitHub Repo Analysis** — Analyze public repositories  
+- 💬 **Modern UI** — Clean, developer-friendly interface  
+- ⚡ **Fast API Integration** using OpenRouter  
+
+---
+
+## 🧠 Architecture
+
+```
+User Input (Code / Repo URL)
+        ↓
+Code Chunking
+        ↓
+Context Retrieval (RAG)
+        ↓
+LLM (OpenRouter API)
+        ↓
+Structured AI Response
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js (App Router)
+- React
+- Tailwind CSS
+
+### Backend
+- Next.js API Routes
+- Node.js
+
+### AI / RAG
+- OpenRouter API
+- LangChain Text Splitter
+- Custom Context Retrieval Logic
+
+### APIs
+- GitHub REST API
+
+---
+
+## 📸 Screenshots
+
+![Explain Mode](./screenshots/explain.png)
+![Debug Mode](./screenshots/debug.png)
+![Optimize Mode](./screenshots/optimize.png)
+![Repo Analysis](./screenshots/repo-analysis.png)
+
+---
+
+## 🚀 Live Demo
+
+👉 https://your-vercel-link.vercel.app
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ai-code-assistant.git
+cd ai-code-assistant
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Create `.env.local`
+
+```env
+OPENROUTER_API_KEY=your_openrouter_key
+GITHUB_TOKEN=your_github_token
+```
+
+### 4. Run the project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
+```
+http://localhost:3000
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📈 Key Highlights
 
-## Learn More
+- 🚀 Built AI-powered developer tool using RAG  
+- 📊 Improves response accuracy using contextual retrieval  
+- ⚡ Designed full-stack architecture from scratch  
+- 🧠 Implements real-world AI system design  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Use Cases
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Developers debugging code  
+- Students learning programming  
+- Code review & improvement  
+- Understanding large codebases  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔐 Security Note
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- API keys are stored using environment variables  
+- `.env.local` is not pushed to GitHub  
+
+---
+
+## 📬 Contact
+
+👤 Piyush Ratn  
+🔗 LinkedIn: https://linkedin.com/in/piyush-ratn  
+💻 GitHub: https://github.com/Piyushratn  
+
+---
+
+<div align="center">
+
+⭐ If you found this project useful, consider starring the repo!
+
+</div>
