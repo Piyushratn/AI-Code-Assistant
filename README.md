@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 AI Code Assistant
+#  AI Code Assistant
 
 ### 🧠 Explain • Debug • Optimize Code using AI + RAG
 
@@ -82,9 +82,9 @@ Structured AI Response
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
-👉 https://your-vercel-link.vercel.app
+ [(https://ai-code-assistant-ashy.vercel.app/)]
 
 ---
 
