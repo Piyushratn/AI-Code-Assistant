@@ -57,19 +57,19 @@
 
 > **Explain Mode** — paste code, get a detailed step-by-step breakdown
 
-![Explain Mode](./screenshots/explain.png)
+![Explain Mode](./explain.png)
 
 > **Debug Mode** — AI identifies bugs and suggests exact fixes
 
-![Debug Mode](./screenshots/debug.png)
+![Debug Mode](./debug.png)
 
 > **Optimize Mode** — get performance and readability improvements
 
-![Optimize Mode](./screenshots/optimize.png)
+![Optimize Mode](./optimize.png)
 
 > **Repo Analysis Mode** — paste a GitHub URL, AI analyzes the entire repo
 
-![Repo Analysis](./screenshots/repo-analysis.png)
+![Repo Analysis](./repo-analysis.png)
 
 ---
 
